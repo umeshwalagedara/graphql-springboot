@@ -1,0 +1,16 @@
+schema {
+    query: Query
+}
+
+type Query {
+    allMovies: [Movie]
+    movie(id: ID): Movie
+}
+
+type Movie {
+    id: ID!
+    title: String
+    year: String
+    actors: [String]
+    myRating: String
+}
