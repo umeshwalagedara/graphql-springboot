@@ -11,11 +11,13 @@ Sample request 1 --
     year
     myRating
    }
+   
    movie(id: 3){
        title
        year
    }
  }
+ 
  
  
  sample request 2--
